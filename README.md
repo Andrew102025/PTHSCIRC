@@ -3,7 +3,9 @@
 ## A website for Computer Information Research Club
 [社團網站](https://www.instagram.com/pths_csc_113/)
 
-# 演算法<https://web.ntnu.edu.tw/~algo/>
+# 演算法 <https://web.ntnu.edu.tw/~algo/>
+
+#中正邦一教授 <https://hackmd.io/@cube/H1Q4zMJmt>
 
 # C <https://web.fg.tp.edu.tw/~earth/vision/study/cprogram06/C_handout.pdf>
 
