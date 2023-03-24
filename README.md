@@ -5,7 +5,7 @@
 
 # 演算法 <https://web.ntnu.edu.tw/~algo/>
 
-#中正邦一教授 <https://hackmd.io/@cube/H1Q4zMJmt>
+# 中正邦一教授 <https://hackmd.io/@cube/H1Q4zMJmt>
 
 # C <https://web.fg.tp.edu.tw/~earth/vision/study/cprogram06/C_handout.pdf>
 
