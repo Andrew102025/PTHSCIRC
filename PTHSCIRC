@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>PTHS CIRC WEB </title>
+           <H1>Andrew is handsome</H1> 
+            <DIV style="text-align:center;"></DIV>
+                <style>
+                 html {height:100%;}
+                    body {
+                            background-image:url(BG.jpg);
+                            background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-position: center center;
+                            background-size:contain;
+                       
+                        }
+                </style>
+    </head>
+
+    <body>
+        
+    </body>
+            
+</html>
