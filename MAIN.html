@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yao-Cheng Cai</title>
+    <style>
+        body {
+            background-color: #bbff00; 
+            font-family: Comic Sans MS, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        }
+        header, footer { 
+            background: #87CEFA; 
+            color: #fff; 
+            text-align: center; 
+            padding: 1em 0; 
+        }   
+        nav a { 
+            margin: 0 15px; 
+            color: #fff; 
+            text-decoration: none; 
+        }
+        section { 
+            padding: 2em; 
+        }
+        h1, h2 { 
+            text-align: center; 
+            color: #333; 
+        }
+        .container { 
+            max-width: 800px; 
+            margin: auto; 
+        }
+        .profile-img { 
+            max-width: 1000px; 
+            display: block; 
+            margin: 1em auto; 
+            border-radius: 2%; 
+        }
+        .skills, .experience, .education { 
+            margin-bottom: 2em; 
+        }
+        .contact-info, .social-media { 
+            text-align: center; 
+        }
+        .contact-form { 
+            max-width: 600px; 
+            margin: 2em auto; 
+        }
+        .contact-form input, .contact-form textarea { 
+            width: 100%; 
+            padding: 1em; 
+            margin: 0.5em 0; 
+        }
+        .contact-form button { 
+            padding: 1em 2em; 
+            background: #333; 
+            color: #fff; 
+            border: none; 
+            cursor: pointer; 
+        }
+        p {
+            animation-duration: 4s;
+            animation-name: slidein;
+        }
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 200%;
+            }
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yao-Cheng Cai (Andrew Tsai)</h1>
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#about">關於Andrew</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#contact">聯絡</a>
+        <a href="#others">其他</a>
+    </nav>
+</header>
+
+<section id="home" class="container">
+    <h2>簡介 (Introduction)</h2>
+    <img src="C:\Users\andre\Downloads\Andrew.png" alt="Yao-Cheng Cai" class="profile-img">
+    <p>我是曜丞，來自國境之南屏東，目前是高師大軟體工程與管理學系的學生，目前有在教學、活動規劃略有著墨，曾擔任學校的資研社社長及暑期課程講師，也曾擔任程式教育的家教工作，目前正在往資訊科技老師努力，希望之後能到偏鄉推廣並普及程式教育，讓教育平等，因為有些地區的資教師資並不是那麼豐裕，希望資訊教育不在受限於距離與資源，希望能夠盡一份心力讓家鄉更美好。。</p>
+    <p>Hello,I am Andrew Tsai, a student from Pintung in the south of Taiwan.I am now major in the Department od Software Engineering and Management of National Kaohsiung Normal University. My main expertise is education, team leadership and activity planning. I used to serve as the president of Computer Information Reseearch Club of Pingtung Senior High School. I used to be employed as summer course lecturer. I also continously work as a tutor in programming education.
+
+        In the future, I hope to become an information technology teacher and go to remote areas to promote and popularize programming education to make education equal. In high school, I discovered that, in fact, in Pingtung County, the number of Information Technology teachers in our is not that abundant. I hope that information education will no longer be limited by distance and resources. I hope that I can do my part to make my hometown better.</p>
+</section>
+
+<section id="about" class="container">
+    <h2>關於我 (About Me)</h2>
+    <div class="education">
+        <h3>學歷 (Education)</h3>
+        <ul>
+            <li>國立高雄師範大學, 軟體工程與管理學系 (2023 - 2027)</li>
+	        <li>國立高雄師範大學, 工業科技教育學系 (2023 - 2027)</li>
+            <li>國立屏東高級中學, 普通科 (2020 - 2023)</li>
+        </ul>
+    </div>
+    <div class="experience">
+        <h3>經歷 (Experience)</h3>
+        <ul>
+            <li>軟體系系辦工讀生, 國立高雄師範大學 (2024 - Present)</li>
+            <li>總召暨執行長, 綠洲計畫教育團隊 (2023 - Present)</li>
+            <li>教師, 屏東縣立九如國中 (2023)</li>
+            <li>資訊媒體組助理, 國立屏東高級中學 (2023)</li>
+        </ul>
+    </div>
+    <div class="teach">
+        <h3>教學經歷 (Teaching)</h3>
+        <ul>
+            <li>112-1苓洲國小課輔班 老師</li>
+            <li>112-2苓洲國小課輔班 老師</li>
+            <li>小一Scratch 入門家教 (雙語教學)</li>
+            <li>小五Scratch 競賽指導家教、Python</li>
+            <li>112 屏東縣 九如國中 暑期課程助理講師</li>
+            <li>113 屏東縣 九如國中 暑期課程助理講師</li>
+            <li>2024 高師大 傑青論壇 秘書組</li>
+            <li>2024  柯丁全國PK賽</li>
+        </ul>
+    </div>
+</section>
+
+<section id="portfolio" class="container">
+    <h2>作品集 (Portfolio)</h2>
+    <div class="photos">
+        <img src="path/to/photo1.jpg" alt="Project 1">
+        <img src="path/to/photo2.jpg" alt="Project 2">
+        <!-- Add more photos as needed -->
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>聯絡 (Contact)</h2>
+    <div class="contact-info">
+        <p>電話: 0901056020 (Mobile)</p>
+        <p>Email: andrewdiana1225@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yao-chengcai-64a0a5272" target="_blank">yao-chengcai-64a0a5272</a></p>
+        <p>GitHub: <a href="https://github.com/Andrew102025" target="_blank">Andrew102025</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/cheng__2525/" target="_blank">cheng__2525</a></p>
+    </div>
+    <div class="social-media">
+        <!-- Add social media icons and links if needed -->
+    </div>
+    <div class="contact-form">
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<section id="others" class="container">
+    <h2>其他 (八啦叭啦的))</h2>
+    <div class="photos">
+        <img src="path/to/photo1.jpg" alt="Project 1">
+        <img src="path/to/photo2.jpg" alt="Project 2">
+        <!-- Add more photos as needed -->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Yao-Cheng Cai. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
